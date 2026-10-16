@@ -1,0 +1,12 @@
+{
+  "start": "shelter",
+  "targets": ["spring", "eastern_pond"],
+  "graph": {
+    "shelter": ["north_trail", "east_trail"],
+    "north_trail": ["shelter", "spring"],
+    "east_trail": ["shelter", "clearing"],
+    "clearing": ["east_trail", "eastern_pond"],
+    "spring": ["north_trail"],
+    "eastern_pond": ["clearing"]
+  }
+}

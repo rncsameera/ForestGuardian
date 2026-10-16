@@ -1,0 +1,15 @@
+{
+  "distance": 2,
+  "path": [
+    "shelter",
+    "north_trail",
+    "spring"
+  ],
+  "target": "spring",
+  "visited": [
+    "shelter",
+    "north_trail",
+    "east_trail",
+    "spring"
+  ]
+}

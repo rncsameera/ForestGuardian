@@ -1,0 +1,30 @@
+{
+  "facts": [
+    "poor_water_quality",
+    "shoreline_pollution_is_likely",
+    "vegetation_health_decreased",
+    "visible_shoreline_waste",
+    "water_related_ecosystem_disturbance",
+    "wildlife_activity_decreased"
+  ],
+  "inferences": [
+    {
+      "from": [
+        "poor_water_quality",
+        "vegetation_health_decreased",
+        "wildlife_activity_decreased"
+      ],
+      "inferred": "water_related_ecosystem_disturbance",
+      "rule": "water_disturbance"
+    },
+    {
+      "from": [
+        "visible_shoreline_waste",
+        "water_related_ecosystem_disturbance"
+      ],
+      "inferred": "shoreline_pollution_is_likely",
+      "rule": "likely_pollution_source"
+    }
+  ],
+  "suspected_disturbance": true
+}

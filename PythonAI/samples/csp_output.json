@@ -1,0 +1,22 @@
+{
+  "assignments": {
+    "filter_1": "shore_north",
+    "saplings_1": "willow_bank",
+    "shelter_1": "fern_hollow"
+  },
+  "attempts": 5,
+  "candidate_sites": {
+    "filter_1": [
+      "shore_north"
+    ],
+    "saplings_1": [
+      "willow_bank"
+    ],
+    "shelter_1": [
+      "shore_north",
+      "willow_bank",
+      "fern_hollow"
+    ]
+  },
+  "success": true
+}

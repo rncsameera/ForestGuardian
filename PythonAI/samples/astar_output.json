@@ -1,0 +1,16 @@
+{
+  "cost": 9.0,
+  "expanded": [
+    "shelter",
+    "trail_junction",
+    "east_clearing",
+    "eastern_pond"
+  ],
+  "path": [
+    "shelter",
+    "trail_junction",
+    "east_clearing",
+    "eastern_pond"
+  ],
+  "reachable": true
+}

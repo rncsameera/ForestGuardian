@@ -1,0 +1,16 @@
+{
+  "start": "shelter",
+  "goal": "eastern_pond",
+  "min_cost_per_unit": 1.0,
+  "positions": {
+    "shelter": [0, 0], "trail_junction": [3, 0], "steep_slope": [5, 2],
+    "east_clearing": [6, 0], "eastern_pond": [9, 0]
+  },
+  "graph": {
+    "shelter": [{"to": "trail_junction", "cost": 3}],
+    "trail_junction": [{"to": "shelter", "cost": 3}, {"to": "steep_slope", "cost": 8}, {"to": "east_clearing", "cost": 3}],
+    "steep_slope": [{"to": "trail_junction", "cost": 8}, {"to": "eastern_pond", "cost": 6}],
+    "east_clearing": [{"to": "trail_junction", "cost": 3}, {"to": "eastern_pond", "cost": 3}],
+    "eastern_pond": []
+  }
+}

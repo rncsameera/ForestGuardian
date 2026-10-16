@@ -1,0 +1,18 @@
+{
+  "confidence": 0.508839,
+  "diagnosis": "contamination",
+  "evidence_used": [
+    "water_clarity",
+    "vegetation_health",
+    "wildlife_activity",
+    "rainfall",
+    "dead_vegetation"
+  ],
+  "model": "naive_bayes_independent_evidence",
+  "probabilities": {
+    "contamination": 0.508839,
+    "disease": 0.108518,
+    "drought": 0.101843,
+    "habitat_disturbance": 0.280801
+  }
+}

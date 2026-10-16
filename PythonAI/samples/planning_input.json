@@ -1,0 +1,14 @@
+{
+  "initial_facts": ["at_shelter", "pond_uninspected"],
+  "goal": ["pond_restored", "recovery_monitored"],
+  "actions": [
+    {"name": "inspect_pond", "preconditions": ["at_shelter", "pond_uninspected"], "add": ["pond_inspected"], "remove": ["pond_uninspected"]},
+    {"name": "collect_water_sample", "preconditions": ["pond_inspected"], "add": ["sample_collected"]},
+    {"name": "identify_cause", "preconditions": ["sample_collected"], "add": ["cause_identified"]},
+    {"name": "locate_waste_source", "preconditions": ["cause_identified"], "add": ["source_located"]},
+    {"name": "acquire_filter", "preconditions": ["at_shelter", "cause_identified"], "add": ["filter_acquired"]},
+    {"name": "restore_source", "preconditions": ["source_located", "filter_acquired"], "add": ["source_stabilized"]},
+    {"name": "restore_pond", "preconditions": ["source_stabilized"], "add": ["pond_restored"]},
+    {"name": "monitor_ecosystem", "preconditions": ["pond_restored"], "add": ["recovery_monitored"]}
+  ]
+}

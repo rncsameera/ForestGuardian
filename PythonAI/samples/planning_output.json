@@ -1,0 +1,28 @@
+{
+  "final_facts": [
+    "at_shelter",
+    "cause_identified",
+    "filter_acquired",
+    "pond_inspected",
+    "pond_restored",
+    "recovery_monitored",
+    "sample_collected",
+    "source_located",
+    "source_stabilized"
+  ],
+  "goal": [
+    "pond_restored",
+    "recovery_monitored"
+  ],
+  "plan": [
+    "inspect_pond",
+    "collect_water_sample",
+    "identify_cause",
+    "locate_waste_source",
+    "acquire_filter",
+    "restore_source",
+    "restore_pond",
+    "monitor_ecosystem"
+  ],
+  "success": true
+}

@@ -1,0 +1,7 @@
+{
+  "facts": ["poor_water_quality", "wildlife_activity_decreased", "vegetation_health_decreased", "visible_shoreline_waste"],
+  "rules": [
+    {"name": "water_disturbance", "if_all": ["poor_water_quality", "wildlife_activity_decreased", "vegetation_health_decreased"], "then": "water_related_ecosystem_disturbance"},
+    {"name": "likely_pollution_source", "if_all": ["water_related_ecosystem_disturbance", "visible_shoreline_waste"], "then": "shoreline_pollution_is_likely"}
+  ]
+}

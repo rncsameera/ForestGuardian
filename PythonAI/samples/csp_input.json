@@ -1,0 +1,13 @@
+{
+  "resources": [
+    {"id": "filter_1", "type": "water_filter", "maximum_water_distance": 2, "minimum_soil": 0.0},
+    {"id": "saplings_1", "type": "saplings", "maximum_water_distance": 8, "minimum_soil": 0.6},
+    {"id": "shelter_1", "type": "wildlife_shelter", "maximum_water_distance": 12, "minimum_soil": 0.3}
+  ],
+  "locations": [
+    {"id": "shore_north", "water_distance": 1, "soil": 0.5, "suitability": {"resource_types": ["water_filter", "wildlife_shelter"]}},
+    {"id": "willow_bank", "water_distance": 4, "soil": 0.8, "suitability": {"resource_types": ["saplings", "wildlife_shelter"]}},
+    {"id": "fern_hollow", "water_distance": 9, "soil": 0.9, "suitability": {"resource_types": ["saplings", "wildlife_shelter"]}},
+    {"id": "reed_core", "water_distance": 0, "soil": 0.4, "habitat_restricted": true, "suitability": {"resource_types": ["water_filter"]}}
+  ]
+}

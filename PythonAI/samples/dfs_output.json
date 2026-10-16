@@ -1,0 +1,12 @@
+{
+  "count": 5,
+  "nodes": [
+    "pond_edge",
+    "reed_bed",
+    "marsh_patch",
+    "willow_bank",
+    "fern_rise"
+  ],
+  "region": "eastern_wetland",
+  "start": "pond_edge"
+}
